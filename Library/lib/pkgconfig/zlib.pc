@@ -1,0 +1,13 @@
+prefix=C:/ProgramData/Anaconda3/envs/App/Library
+exec_prefix=C:/ProgramData/Anaconda3/envs/App/Library
+libdir=C:/ProgramData/Anaconda3/envs/App/Library/lib
+sharedlibdir=C:/ProgramData/Anaconda3/envs/App/Library/lib
+includedir=C:/ProgramData/Anaconda3/envs/App/Library/include
+
+Name: zlib
+Description: zlib compression library
+Version: 1.2.12
+
+Requires:
+Libs: -L${libdir} -L${sharedlibdir} -lz
+Cflags: -I${includedir}
